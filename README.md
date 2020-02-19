@@ -37,8 +37,8 @@ Lorsque l'arbitre lâche son touchpad, un son est joué, les LED deviennent bleu
 Les joueurs ont ensuite 30 secondes pour toucher leur pad. Le gagnant est le plus rapide. Il est annoncé avec un nombre de sons correspondant au numéro de l'équipe. Ensuite les 3 LED les plus proches du cable du gagnant s'allument de la couleur correspondante a l'équipe.<br>
 Si un ou plusieurs autres joueurs ont touché leur pad dans la même seconde, le second meilleur temps est indiqué par une seule LED allumée moins fort, proche du cable correspondant, de la couleur de l'équipe.<br>
 Les données brutes sont indiquées par la liaison série (REPL), mais aussi l'écart de temps en milliseconde entre le meilleur et le second, par exemple.<br>
-Si personne ne répond avant 30 secondes, un son est joué, puis toutes les LED sont allumées en rouge.
-L'interrupteur permet de couper le son. Dans ce cas, la LED D13 est allumée.<br>
+Si personne ne répond avant 30 secondes, un son est joué, puis toutes les LED sont allumées en rouge.<br>
+L'interrupteur permet de couper le son. Dans ce cas, la LED rouge D13 est allumée.<br>
 Au bout de 20 secondes d'inactivité, une animation se déclenche. La couleur principale correspond au dernier gagnant.<br>
 
 ## Informations techniques 
